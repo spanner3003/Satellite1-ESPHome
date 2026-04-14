@@ -563,7 +563,6 @@ MICRO_WAKE_WORLD_MODEL_ACTION_SCHEMA = automation.maybe_simple_id(
     "micro_wake_word.model_is_enabled",
     ModelIsEnabledCondition,
     MICRO_WAKE_WORLD_MODEL_ACTION_SCHEMA,
-    synchronous=True,
 )
 async def model_action(config, action_id, template_arg, args):
     parent = await cg.get_variable(config[CONF_ID])
