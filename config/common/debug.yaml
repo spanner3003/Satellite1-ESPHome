@@ -1,7 +1,7 @@
 external_components:
   - source:
       type: git
-      url: https://github.com/FutureProofHomes/Satellite1-ESPHome
+      url: https://github.com/spanner3003/Satellite1-ESPHome
       ref: develop
     refresh: 1s
     components: [version]
